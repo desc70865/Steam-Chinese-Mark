@@ -1,15 +1,17 @@
 // ==UserScript==
-// @name        Steam_SChinese_Mark
-// @namespace   https://github.com/desc70865/Steam_SChinese_Mark/
-// @icon        https://keylol.com/favicon.ico
-// @version     0.4.1
-// @description mark url contains appid which support chinese & card info
-// @author      desc_inno, wsz987
-// @match       https://keylol.com/*
-// @resource    chinese https://raw.githubusercontent.com/desc70865/Steam_SChinese_Mark/master/chinese.json
-// @resource    card https://bartervg.com/browse/cards/json/
-// @require     https://cdn.staticfile.org/jquery/1.12.4/jquery.min.js
-// @grant       GM_getResourceText
+// @name         Steam Chinese Mark
+// @description  mark url contains appid which support chinese & card info
+// @author       desc_inno, wsz987
+// @namespace    https://github.com/desc70865/Steam-Chinese-Mark/
+// @supportURL   https://github.com/desc70865/Steam-Chinese-Mark/issues
+// @updateURL    https://github.com/desc70865/Steam-Chinese-Mark/raw/master/Steam-Chinese-Mark.user.js
+// @version      0.4.2
+// @icon         https://keylol.com/favicon.ico
+// @match        https://keylol.com/*
+// @require      https://cdn.staticfile.org/jquery/1.12.4/jquery.min.js
+// @resource     chinese https://raw.githubusercontent.com/desc70865/Steam-Chinese-Mark/master/full.json
+// @resource     card https://bartervg.com/browse/cards/json/
+// @grant        GM_getResourceText
 // ==/UserScript==
 
 (async function() {
